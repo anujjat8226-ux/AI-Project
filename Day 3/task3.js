@@ -10,7 +10,7 @@ let average = total / marks.length;
 console.log("Total:", total, "Average:", average); 
 // Total: 260 Average: 65
 let student = {
-    name: "Amit",
+    name: "Aadarsh",
     age: 20,
     subjects: {
         math: 85,
@@ -34,10 +34,11 @@ function calculateMarks(students) {
 
 // Example data
 let studentList = [
-    { name: "Aishwary", subjects: { math: 85, science: 90, english: 78 } },
-    { name: "Mansi", subjects: { math: 72, science: 65, english: 80 } },
-    { name: "Arjit", subjects: { math: 60, science: 70, english: 68 } }
+    { name: "Anuj", subjects: { math: 85, science: 90, english: 78 } },
+    { name: "Aryan", subjects: { math: 72, science: 65, english: 80 } },
+    { name: "Aditya", subjects: { math: 60, science: 70, english: 68 } }
 ];
 
 // Run calculator
+
 calculateMarks(studentList);
